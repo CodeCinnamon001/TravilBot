@@ -4,6 +4,6 @@ module.exports = {
     description: 'Displays Bots Ping!',
   },
   run:  ( {interaction, client} ) => {
-    interaction.reply(`Pong! API Latency is ${client.ws.ping}ms`);
+    interaction.reply(`Pong!! API Latency is ${client.ws.ping}ms`);
   },
 }
